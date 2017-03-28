@@ -1,4 +1,5 @@
 FROM ubuntu:14.04
+MAINTAINER c060604 "c060604@gmail.com"
 RUN apt-get -y update
 RUN apt-get -y upgrade
 RUN apt-get -y install build-essential cmake git pkg-config
